@@ -32,7 +32,7 @@ namespace tasktwo
             student2.grades.Add(grade6);
             // variable that calculate the grade average of a student
             GradeProfile.CalcAvg();
-            
+            ReadKey();
 
         }
     }
