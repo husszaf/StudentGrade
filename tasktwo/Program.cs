@@ -16,7 +16,7 @@ namespace tasktwo
             
 
             Grades grade1 = new(1, "OOP", "Assignment 010", 40, 2022);
-            Grades grade2 = new(1, "Networking", "Assignment 023", 60, 2022);
+            Grades grade2 = new(1, "Networking", "Assignment 023", 50, 2022);
 
             Grades grade3 = new(2, "Matrices", "Assignment 010", 60, 2022);
             Grades grade4 = new(2, "Algebra", "Assignment 023", 70, 2022);
