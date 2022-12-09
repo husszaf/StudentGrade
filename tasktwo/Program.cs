@@ -23,6 +23,7 @@ namespace tasktwo
             Grades grade5 = new(2, "Networking", "Assignment 023", 70, 2022);
             Grades grade6 = new(2, "Maths", "Assignment 024", 50, 2022);
 
+            //adding the students grades from the grades list above
             student1.grades.Add(grade1);
             student1.grades.Add(grade2);
             student1.grades.Add(grade3);
@@ -32,7 +33,7 @@ namespace tasktwo
             student2.grades.Add(grade6);
             // variable that calculate the grade average of a student
             GradeProfile.CalcAvg();
-            ReadKey();
+            ReadKey();//keeps the console open
 
         }
     }
